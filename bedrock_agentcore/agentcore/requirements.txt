@@ -1,0 +1,31 @@
+# Generic AgentCore Requirements - Working Implementation
+# Minimal dependencies for immediate functionality
+
+# Core LangChain (your existing requirements)
+langchain>=0.1.0
+langchain-aws>=0.0.34
+langgraph>=0.1.0
+boto3>=1.26.0
+pydantic>=2.0
+python-dotenv>=1.0
+
+# Optional: AgentCore SDK (install if available)
+# bedrock-agentcore>=0.2.0
+# bedrock-agentcore-starter-toolkit>=0.2.0
+
+# Core Python libraries (usually already installed)
+typing-extensions>=4.5.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Optional enhancements (uncomment as needed)
+# numpy>=1.24.0          # For advanced calculations
+# pandas>=2.0.0          # For data analysis
+# requests>=2.31.0       # For web search tools
+# aiohttp>=3.8.0         # For async HTTP requests
+
+# Production server (uncomment for deployment)
+# uvicorn[standard]>=0.23.0
+# fastapi>=0.100.0
